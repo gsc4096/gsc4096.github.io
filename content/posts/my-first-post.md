@@ -1,8 +1,7 @@
 ---
-title: Estudando sobre Git
-date: 2024-02-05
+title: Confidencialidade de credenciais, hashing, salting e 2FA
+date: 2024-09-30
 ---
 
-# teste
-
+## teste
 ...

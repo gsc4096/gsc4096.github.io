@@ -5,9 +5,10 @@ theme = 'beautifulhugo'
 
 [Params]
   subtitle = 'A brief experiment with a SSG'
-  favicon = "static/img/favicon.ico"
-  img = "images/*.png"
-  dateFormat = "January 1, 2000"
+  mainSections = ['posts']
+  favicon = 'static/img/favicon.ico'
+  img = 'images/*.png'
+  dateFormat = 'January 1, 2006'
 
 [Author]
   name = 'Gabriel'
@@ -16,9 +17,7 @@ theme = 'beautifulhugo'
 [[menu.main]]
     name = 'Home'
     url = ''
-    weight = 1
 
 [[menu.main]]
     name = 'About'
-    url = 'page/about'
-    weight = 3
+    url = 'pages/about'
