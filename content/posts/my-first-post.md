@@ -1,10 +1,8 @@
-+++
-title = 'My First Post'
-date = 2024-09-30T09:14:20-03:00
-draft = true
-+++
+---
+title: Estudando sobre Git
+date: 2024-02-05
+---
 
-## Test
+# teste
 
-wejfoiwejfoiw **aijsdfoijwaef**
-Visit aaaaaaa
+...

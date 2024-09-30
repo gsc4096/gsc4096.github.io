@@ -2,3 +2,23 @@ baseURL = 'https://gsc4096.github.io'
 languageCode = 'pt-br'
 title = 'gsc4096'
 theme = 'beautifulhugo'
+
+[Params]
+  subtitle = 'A brief experiment with a SSG'
+  favicon = "static/img/favicon.ico"
+  img = "images/*.png"
+  dateFormat = "January 1, 2000"
+
+[Author]
+  name = 'Gabriel'
+  github = 'gsc4096'
+
+[[menu.main]]
+    name = 'Home'
+    url = ''
+    weight = 1
+
+[[menu.main]]
+    name = 'About'
+    url = 'page/about'
+    weight = 3
