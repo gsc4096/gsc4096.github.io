@@ -1,23 +1,29 @@
-baseURL = 'https://gsc4096.github.io'
-languageCode = 'pt-br'
-title = 'gsc4096'
-theme = 'beautifulhugo'
+baseURL = "https://gsc4096.github.io"
+languageCode = "pt-br"
+title = "gsc4096"
+theme = "beautifulhugo"
 
 [Params]
-  subtitle = 'A brief experiment with a SSG'
-  mainSections = ['posts']
-  favicon = 'static/img/favicon.ico'
-  img = 'images/*.png'
-  dateFormat = 'January 1, 2006'
+homeTitle = "gsc4096"
+subtitle = "A brief experiment with a SSG"
+mainSections = ["post"]
+img = "images/*.png"
+favicon = "img/favicon.ico"
+dateFormat = "January 2, 2006"
+rss = true
+readingTime = true
+wordCount = true
 
 [Author]
-  name = 'Gabriel'
-  github = 'gsc4096'
+name = "Gabriel"
+github = "gsc4096"
 
 [[menu.main]]
-    name = 'Home'
-    url = ''
+name = "Blog"
+url = ""
+weight = 1
 
 [[menu.main]]
-    name = 'About'
-    url = 'pages/about'
+name = "About"
+url = "page/about/"
+weight = 3
