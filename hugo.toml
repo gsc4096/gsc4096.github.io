@@ -1,0 +1,4 @@
+baseURL = 'https://gsc4096.github.io'
+languageCode = 'pt-br'
+title = 'gsc4096'
+theme = 'beautifulhugo'
